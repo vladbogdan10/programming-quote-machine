@@ -1,0 +1,101 @@
+body {
+    background: url("http://api.thumbr.it/whitenoise-800x700.png?background=fffcf2ff&noise=626262&density=7&opacity=8")
+}
+
+h1 {
+    text-align: center;
+    margin-top: 140px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: #d7e9ea;
+    font-size: 200%;
+    text-shadow: 1px 1px #c4c4c4;
+}
+
+#quoteBox {
+    background-color: #edf7f7;
+    width: 700px;
+    height: 200px;
+    margin: 10px auto;
+    text-align: justify;
+    padding: 30px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0px 0px 17px -5px rgba(0,0,0,0.7);
+    -moz-box-shadow: inset 0px 0px 17px -5px rgba(0,0,0,0.7);
+    box-shadow: inset 0px 0px 17px -5px rgba(0,0,0,0.7);
+}
+
+#quoteText {
+    font-size: 22px;
+    font-family: 'Molengo', sans-serif;
+    color: #303030;
+}
+
+#quoteAuthor {
+    font-size: 16px;
+    float: right;
+    margin-right: 30px;
+    color: gray;
+    font-family: 'Molengo', sans-serif;
+}
+
+.buttons {
+    position: absolute;
+    top: 480px;
+    width: 720px;
+}
+
+#newQuote {
+    padding: 12px;
+    background-color: cadetblue;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 5px;
+    position: relative;
+    top: -13px;
+    color: rgb(255, 252, 242);
+}
+
+#newQuote:hover {background-color: #437F87}
+
+#newQuote:active {
+  transform: translateY(2px);
+}
+
+.buttons i{
+    font-size: 57px;
+    cursor: pointer;
+    margin-left: 520px;
+    position: relative;
+    color: cadetblue;
+}
+
+.buttons i:active {
+  transform: translateY(2px);
+}
+
+footer {
+    position: relative;
+    bottom: -190px;
+    text-align: center;
+    color: grey;
+}
+
+footer a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
