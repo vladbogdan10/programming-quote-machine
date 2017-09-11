@@ -14,9 +14,10 @@ h1 {
 
 #quoteBox {
     background-color: antiquewhite;
-    width: 700px;
+    width: 70%;
+    max-width: 700px;
     height: 200px;
-    margin: 10px auto;
+    margin: auto;
     text-align: justify;
     padding: 30px;
     border-radius: 4px;
@@ -35,15 +36,16 @@ h1 {
     padding-top: 15px;
     font-size: 16px;
     float: right;
-    margin-right: 30px;
+    padding-right: 30px;
     color: gray;
     font-family: 'Molengo', sans-serif;
 }
 
 .buttons {
-    position: absolute;
-    top: 490px;
-    width: 720px;
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    text-align: right;
 }
 
 #newQuote {
@@ -55,8 +57,6 @@ h1 {
     cursor: pointer;
     font-size: 18px;
     margin-left: 5px;
-    position: relative;
-    top: -13px;
     color: #232121;
     font-weight: 600;
 }
@@ -66,10 +66,10 @@ h1 {
 }
 
 .buttons i {
+    position: relative;
+    top: 13px;
     font-size: 55px;
     cursor: pointer;
-    margin-left: 520px;
-    position: relative;
     color: #BB1C34;
 }
 
@@ -80,8 +80,10 @@ h1 {
 footer {
     text-align: center;
     color: grey;
-    position: relative;
-    bottom: -250px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 footer a {
@@ -89,48 +91,14 @@ footer a {
     color: crimson;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 640px) {
     h1 {
         margin-top: 40px;
-        font-size: 35px;
-        margin-bottom: 50px
-    }
-    
-    #quoteBox {
-        width: 300px;
-        height: 300px;
-    }
-    
-    #quoteText {
-        font-size: 20px;
-    }
-    
-    #quoteAuthor {
-        padding-top: 25px;
-        margin-right: 0;
+        font-size: 28px;
+        margin-bottom: 40px
     }
     
     .buttons {
-        top: 430px;
-        width: 280px;
-        margin-left: 60px; 
-    }
-    
-    #newQuote {
-        font-size: 15px;
-        padding: 10px;
-        top: -10px;
-        margin-left: 0;
-        color: antiquewhite;
-        font-weight: 400;
-    }
-    
-    .buttons i {
-        margin-left: 18px;
-        font-size: 44px;
-    }
-    
-    footer {
-        bottom: -80px;
+        text-align: center;
     }
 }
