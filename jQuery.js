@@ -7,7 +7,7 @@ function renderHTML(json) {
     if (json.quoteAuthor === '') {
         json.quoteAuthor = "Unknown";
     }
-    $("#quoteAuthor").html(" - " + json.quoteAuthor);
+    $("#quoteAuthor").hide().html(" - " + json.quoteAuthor).fadeIn();
     var quote = $("#quoteText").text();
     var author = $("#quoteAuthor").text();
 };
