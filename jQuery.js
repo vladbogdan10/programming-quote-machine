@@ -12,6 +12,6 @@ function renderHTML(json) {
     var author = $("#quoteAuthor").text();
 };
 
-$("#tweet").on("click", function () {
+$("#twitter-btn").on("click", function () {
     window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent($("#quoteText").text() + $("#quoteAuthor").text()));
 });
